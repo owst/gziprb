@@ -1,4 +1,4 @@
-# gziprb
+# gziprb [![Build Status](https://travis-ci.org/owst/gziprb.svg?branch=master)](https://travis-ci.org/owst/gziprb)
 
 `gziprb` is a pure-Ruby implementation of the famous [GZIP][3]/[DEFLATE][7]
 format. It is (definitely!) not optimised for performance, but was instead
