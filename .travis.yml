@@ -1,6 +1,10 @@
 language: ruby
 rvm:
- - 2.3.3
- - 2.4.0
- - jruby
- - rbx
+  - 2.3.3
+  - 2.4.0
+install:
+  - bundle install --path vendor/bundle
+  - npm install
+script:
+  - bundle exec rake test
+  - bundle exec rake rubocop
